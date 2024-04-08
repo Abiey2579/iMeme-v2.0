@@ -1,0 +1,7 @@
+{
+  "name": "iMeme",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
