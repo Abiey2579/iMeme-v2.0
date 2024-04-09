@@ -1,0 +1,28 @@
+@import url("../../theme/variables.css");
+
+.welcome-background-gradient::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+ion-button {
+  --background: transparent;
+  --background-hover: transparent;
+  --background-activated: transparent;
+  --ripple-color: var(--secondary-color);
+  --padding-bottom: 16px;
+  --padding-top: 16px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  text-transform: capitalize;
+}
